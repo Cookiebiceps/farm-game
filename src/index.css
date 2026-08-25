@@ -1,0 +1,30 @@
+:root {
+  color-scheme: light;
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial,
+    sans-serif;
+  line-height: 1.5;
+  --sky-top: #aee1ff;
+  --sky-bottom: #d8f5d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 60%);
+  min-height: 100vh;
+  color: #26331f;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
